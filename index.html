@@ -14,15 +14,36 @@ rel="stylesheet"
 </head>
 <body>
     <main>
-        <div class="name-tag">
-            <section class="top">
+        <div>
+            <section class="inputs">
+                <input id="name-input" type=text>
+                <button id="submit-button">Change Name</button>
+                <input id="pronoun-input" type=text>
+                <button id="pronoun-button">Pronoun</button>
+                <input id="color-input" type="color">
+                <button id="color-button">Color</button>
+                <select id="font-input">
+                    <option value="Times New Roman" id="tnr">Times New Roman</option>
+                    <option value="Cursive" id="cursive">Cursive</option>
+                </select>
+                <button id="font-button">Font</button>
+            </section>
+        </div>
+        <div id="name-tag" class="name-tag">
+            <section id="top-section" class="top">
                 <h1>Hello</h1>
                 <h2>my name is</h2>
             </section>
-            <section class="middle">Tanner Meck</section>
-            <section class="bottom"></section>
+            <section id="name-section" class="middle">Tanner Meck</section>
+                <span id="pronoun-section"></span>
+            <section id="bottom-section" class="bottom"></section>
+        </div>
+        <div>
+            <span id="number-of-attempts">Number of attempts:</span>
+            <span id="event-value"></span>
         </div>
 
     </main>
 </body>
+<script type="module" src="index.js"></script>
 </html>

@@ -1,3 +1,11 @@
+.inputs {
+    height: 100px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 .name-tag {
     height: 280px;
     width: 400px;
@@ -39,4 +47,22 @@ h1 {
 }
 h2 {
     font-weight: normal;
+}
+#event-value {
+    width: 195px;
+    border: solid 4px black;
+    padding: 10px 0px 10px 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: red;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#pronoun-section {
+    font-weight: bold;
+    font-family: arial;
+}
+#number-of-attempts {
+    font-weight: bold;
 }
